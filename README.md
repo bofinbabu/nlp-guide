@@ -1,5 +1,9 @@
 #  A practical guide to Natural Language Processing tasks
 
+## Content
+1. [Stemming](#Stemming)
+2. [Part-of-Speech Tagging](#Part-of-Speech Tagging)
+
 ## 1. Stemming
 Stemming is the process of deriving the inflected words to their word stem, base or root form. 
 For example, `cats`, `catlike`, `catty` etc are based on the root form `cat`. 
