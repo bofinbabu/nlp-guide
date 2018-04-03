@@ -2,7 +2,9 @@
 
 ## Content
 1. [Stemming](#Stemming)
-2. [Part-of-Speech Tagging](#Part-of-Speech Tagging)
+2. [Part-of-Speech Tagging](#Part-of-Speech-Tagging)
+3. pp
+4. [Semantic Role Labeling](#Semantic-Role-Labeling)
 
 ## 1. Stemming
 Stemming is the process of deriving the inflected words to their word stem, base or root form. 
