@@ -1,6 +1,8 @@
 # A practical guide to Natural Language Processing tasks
 
-Natural Language Processing is a field which’s concerned with the interactions between computers and human (natural) languages. Most of the NLP is based on Deep Learning, classical Machine Learning as well as some other less-known AI techniques. Beyond AI, the field also takes inspiration from Computational Linguistics. This guide covers popular NLP tasks from a practical point of view.
+Natural Language Processing is a field that studies interactions between computers and human (natural) languages. Most of the NLP is put into practice using Deep Learning, classical Machine Learning as well as some other less-known AI techniques. Beyond the realm of AI, the field also takes inspiration from Computational Linguistics. 
+
+This guide covers some popular NLP tasks from a practical point of view.
 
 ## Content
 1. [Stemming](#Stemming)
