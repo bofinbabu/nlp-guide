@@ -116,3 +116,14 @@ version by one of the below two approaches,
 
 ### Datasets
 1. [The CNN / Daily Mail dataset](https://github.com/abisee/cnn-dailymail)
+
+## TODO (draft)
+- Include lemmatization with stemming
+- Add Named Entity Disambiguation
+- Add Text Similarity
+- Add Sentiment Analysis
+- Add a header image
+- Better intro
+- Add a license
+- Add references
+
