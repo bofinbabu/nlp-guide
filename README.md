@@ -2,11 +2,13 @@
 
 ## Content
 1. [Stemming](#Stemming)
-2. [Part-of-Speech Tagging](#Part-of-Speech-Tagging)
-3. pp
-4. [Semantic Role Labeling](#Semantic-Role-Labeling)
+2. [Part-of-Speech Tagging](#part-of-speech-tagging)
+3. [Named Entity Recognition](#named-entity-recognition)
+4. [Semantic Role Labeling](#semantic-role-labeling)
+5. [Coreference Resolution](#coreference-resolution)
+6. [Automatic Text Summarization](#automatic-text-summarization)
 
-## 1. Stemming
+## Stemming
 Stemming is the process of deriving the inflected words to their word stem, base or root form. 
 For example, `cats`, `catlike`, `catty` etc are based on the root form `cat`. 
 Given below are some more examples of inflected words and their root form.
@@ -23,7 +25,7 @@ From example 2 and 3, it’s clear that the stem itself is not a word or root.
 1. Jurafsky, [Speech and Language Processing - Chapter 2](https://web.stanford.edu/~jurafsky/slp3/2.pdf), Section 3.4: Lemmatization and Stemming.
 2. [The Porter Stemming Algorithm](snowball.tartarus.org/algorithms/porter/stemmer.html)
 
-## 2. Part-of-Speech Tagging
+## Part-of-Speech Tagging
 Part-of-speech (POS) tagging is the process of classifying words in to their part of speech (lexical items). 
 
 For example, here are the part of speeches for the sentence: 
@@ -49,7 +51,7 @@ Where CC (Coordinating conjunction), RB (Adverb), NN(Noun) etc are [POS tags](ht
 1. [CoNLL-2000 chunking dataset](https://www.clips.uantwerpen.be/conll2000/chunking/)
 2. [EmpiriST 2015 dataset](https://sites.google.com/site/empirist2015/home/shared-task-data)
 
-## 3. Named Entity Recognition
+## Named Entity Recognition
 Named Entity Recognition (NER) is the process of labelling named-entities in a text. 
 Named entities are real world objects such as persons, locations, organisations etc, that can be denoted with a proper name.
 
@@ -70,7 +72,7 @@ For example here is the [Stanford-NER](https://nlp.stanford.edu/software/CRF-NER
 5. Dataset from the [OKE Challenge 2016](https://github.com/anuzzolese/oke-challenge-2016)
 
 
-## 4. Semantic Role Labeling
+## Semantic Role Labeling
 
 Semantic Role Labelling (SRL) is the process of assigning labels to words or phrases in a sentence that shows their semantic role
 in a sentence. ‘agent’, ‘goal’,  ‘result’ etc are some examples of some semantic roles.
@@ -87,7 +89,7 @@ the seller (agent), `the book` represents the goods (theme), and `John` represen
 1. [FrameNet](https://framenet.icsi.berkeley.edu/fndrupal/)
 2. [The Proposition Bank](https://propbank.github.io/)
 
-## 5. Coreference Resolution
+## Coreference Resolution
 
 Coreference, as the name suggests is a case where a same person or a thing get refers multiple times in a text. 
 Coreference Resolution is the task of finding all such expressions that refer to the same entity in a text.
@@ -99,7 +101,7 @@ same person, namely to Bill.
 1. [Introduction to Coreference Resolution](www-labs.iro.umontreal.ca/~felipe/IFT6010-Hiver2015/Presentations/Abbas-Coreference.pdf)
 2. [Coreference Resolution with World Knowledge](www.aclweb.org/anthology/P11-1082)
 
-## 6. Automatic Text Summarization
+## Automatic Text Summarization
 Automatic text summarization is the process of automatically condensing a text document into a shorter 
 version by one of the below two approaches,
 1. Extractive summarization: The summary if made by selecting a subset of passages from the text and arranging them in a meaningful order.
