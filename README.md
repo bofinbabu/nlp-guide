@@ -47,7 +47,7 @@ Where CC (Coordinating conjunction), RB (Adverb), NN(Noun) etc are [POS tags](ht
 ### Reading
 1. [Optional] Jurafsky, [Speech and Language Processing - Chapter 11](https://web.stanford.edu/~jurafsky/slp3/11.pdf) - Formal Grammars of English
 2. Jurafsky, [Speech and Language Processing - Chapter 10](https://web.stanford.edu/~jurafsky/slp3/10.pdf) - Part-of-Speech Tagging
-3. Natural Language Processing with Python, [Chapter 5](www.nltk.org/book/ch05.html)
+3. Natural Language Processing with Python, [Chapter 5](http://www.nltk.org/book/ch05.html)
 
 ### Datasets
 1. [CoNLL-2000 chunking dataset](https://www.clips.uantwerpen.be/conll2000/chunking/)
@@ -77,7 +77,7 @@ For example here is the [Stanford-NER](https://nlp.stanford.edu/software/CRF-NER
 ## Semantic Role Labeling
 
 Semantic Role Labelling (SRL) is the process of assigning labels to words or phrases in a sentence that shows their semantic role
-in a sentence. ‘agent’, ‘goal’,  ‘result’ etc are some examples of some semantic roles.
+in a sentence. `agent`, `goal`,  `result` etc are examples of some semantic roles.
 
 For example, in the sentence `"Mary sold the book to John”`, the task `to sell` represents the predicate, `Mary` represents 
 the seller (agent), `the book` represents the goods (theme), and `John` represents the recipient.
@@ -100,12 +100,12 @@ For example in the sentence `“Bill said he would come”`, the proper noun `Bi
 same person, namely to Bill.
 
 ### Reading
-1. [Introduction to Coreference Resolution](www-labs.iro.umontreal.ca/~felipe/IFT6010-Hiver2015/Presentations/Abbas-Coreference.pdf)
-2. [Coreference Resolution with World Knowledge](www.aclweb.org/anthology/P11-1082)
+1. [Introduction to Coreference Resolution](http://www-labs.iro.umontreal.ca/~felipe/IFT6010-Hiver2015/Presentations/Abbas-Coreference.pdf)
+2. [Coreference Resolution with World Knowledge](http://www.aclweb.org/anthology/P11-1082)
 
 ## Automatic Text Summarization
 Automatic text summarization is the process of automatically condensing a text document into a shorter 
-version by one of the below two approaches,
+version. It is usually achieved by one of the below two approaches,
 1. Extractive summarization: The summary if made by selecting a subset of passages from the text and arranging them in a meaningful order.
 2. Abstractive summarization: The summary is made using natural language generation techniques, applied on the given text.
 
