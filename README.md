@@ -5,14 +5,14 @@ Natural Language Processing is a field that studies the interactions between com
 This guide covers some popular NLP tasks from a practical point of view.
 
 ## Content
-1. [Stemming](#Stemming)
+1. [Stemming & lemmatization](#Stemming-&-lemmatization)
 2. [Part-of-Speech Tagging](#part-of-speech-tagging)
 3. [Named Entity Recognition](#named-entity-recognition)
 4. [Semantic Role Labeling](#semantic-role-labeling)
 5. [Coreference Resolution](#coreference-resolution)
 6. [Automatic Text Summarization](#automatic-text-summarization)
 
-## Stemming
+## Stemming & lemmatization
 Stemming is the process of deriving the inflected words to their word stem, base or root form. 
 For example, `cats`, `catlike`, `catty` etc are based on the root form `cat`. 
 Given below are some more examples of inflected words and their root form.
@@ -25,9 +25,15 @@ Given below are some more examples of inflected words and their root form.
 |    4    |   stems, stemmer, stemming, stemmed   |               stem              |
 
 From example 2 and 3, it’s clear that the stem itself is not a word or root.
+
+While stemming is crude heuristic process that chops off the ends of words to derive the word stem, it includes the removal of derivational affixes most of the time. Lemmatization does this job in a proper way with vocabulary and morphological analysis of words aiming to remove inflectional endings and to return the dictionary form of a word, which is known as the lemma.
+
+For example the stemming might return `s` for the token `saw` which not a dictionary word. Lemmatization on the other hand would return either `see` or `saw` depending on whether the token was used as a verb or a noun.
+
 ### Reading
 1. Jurafsky, [Speech and Language Processing - Chapter 2](https://web.stanford.edu/~jurafsky/slp3/2.pdf), Section 3.4: Lemmatization and Stemming.
 2. [The Porter Stemming Algorithm](snowball.tartarus.org/algorithms/porter/stemmer.html)
+3. [Stemming and lemmatization](https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html) - IR-Book, Stanford
 
 ## Part-of-Speech Tagging
 Part-of-speech (POS) tagging is the process of classifying words in to their part of speech (lexical items). 
@@ -122,7 +128,7 @@ version. It is usually achieved by one of the below two approaches,
 ---
 
 ## TODO (draft)
-- Include lemmatization with stemming
+- ~~Include lemmatization with stemming ~~
 - Add Named Entity Disambiguation
 - Add Text Similarity
 - Add Sentiment Analysis
