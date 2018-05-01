@@ -84,8 +84,7 @@ For example here is the [Stanford-NER](https://nlp.stanford.edu/software/CRF-NER
 
 ## Semantic Role Labeling
 
-Semantic Role Labelling (SRL) is the process of assigning labels to words or phrases in a sentence that shows their semantic role
-in a sentence. `agent`, `goal`,  `result` etc are examples of some semantic roles.
+Semantic Role Labelling (SRL) is the process of assigning labels to words or phrases in a sentence that shows their semantic role in that sentence. `agent`, `goal`,  `result` etc are examples of some semantic roles.
 
 For example, in the sentence `"Mary sold the book to John”`, the task `to sell` represents the predicate, `Mary` represents 
 the seller (agent), `the book` represents the goods (theme), and `John` represents the recipient.
@@ -114,8 +113,8 @@ same person, namely to Bill.
 ## Automatic Text Summarization
 Automatic text summarization is the process of automatically condensing a text document into a shorter 
 version. It is usually achieved by one of the below two approaches,
-1. Extractive summarization: The summary if made by selecting a subset of passages from the text and arranging them in a meaningful order.
-2. Abstractive summarization: The summary is made using natural language generation techniques, applied on the given text.
+1. Extractive summarization: The summary is created by selecting a subset of passages from the text and arranging them in a meaningful order.
+2. Abstractive summarization: The summary is generated using natural language generation techniques, applied on the given text.
 
 ### Reading
 1. [Text Summarization in Python: Extractive vs. Abstractive techniques revisited](https://rare-technologies.com/text-summarization-in-python-extractive-vs-abstractive-techniques-revisited/)
