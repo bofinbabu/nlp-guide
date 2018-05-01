@@ -7,10 +7,11 @@ This guide covers some popular NLP tasks from a practical point of view.
 ## Content
 1. [Stemming & lemmatization](#Stemming-&-lemmatization)
 2. [Part-of-Speech Tagging](#part-of-speech-tagging)
-3. [Named Entity Recognition](#named-entity-recognition)
-4. [Semantic Role Labeling](#semantic-role-labeling)
-5. [Coreference Resolution](#coreference-resolution)
-6. [Automatic Text Summarization](#automatic-text-summarization)
+3. [Named Enitity Linking](#named-enitity-linking)
+4. [Named Entity Recognition](#named-entity-recognition)
+5. [Semantic Role Labeling](#semantic-role-labeling)
+6. [Coreference Resolution](#coreference-resolution)
+7. [Automatic Text Summarization](#automatic-text-summarization)
 
 ## Stemming & lemmatization
 Stemming is the process of deriving the inflected words to their word stem, base or root form. 
@@ -60,6 +61,19 @@ Where CC (Coordinating conjunction), RB (Adverb), NN(Noun) etc are [POS tags](ht
 ### Datasets
 1. [CoNLL-2000 chunking dataset](https://www.clips.uantwerpen.be/conll2000/chunking/)
 2. [EmpiriST 2015 dataset](https://sites.google.com/site/empirist2015/home/shared-task-data)
+
+## Named Enitity Linking
+Named Entity Linking, also known as Named Entity Disambiguation is the task of detetermining the identies mentioend in text. For example in the sentence `"Michael Jordan and his Machine Learning research team wants to put smarter A.I. in your home"`, the idea is to determine "Michael Jordan" refers to the Artificial Intelligence reseacher Michael I. Jordan, not to the basketball player Michael Jordan or any other entity that could be referred with same title.
+
+### Reading
+1. [Using encyclopedic knowledge for named entity disambiguation](http://www.aclweb.org/anthology/E06-1002)
+2. [Discovering Types for Entity Disambiguation
+](https://blog.openai.com/discovering-types-for-entity-disambiguation) - OpenAI
+
+### Datasets
+1. Dataset from the [OKE Challenge](https://github.com/anuzzolese/oke-challenge-2016)
+2. [WES2015 dataset](https://github.com/dbpedia-spotlight/evaluation-datasets)
+3. [Micropost datasets](http://ikt.ui.sav.sk/microposts/)
 
 ## Named Entity Recognition
 Named Entity Recognition (NER) is the process of labelling named-entities in a text. 
@@ -128,7 +142,7 @@ version. It is usually achieved by one of the below two approaches,
 
 ## TODO (draft)
 - ~~Include lemmatization with stemming ~~
-- Add Named Entity Disambiguation
+- ~~ Add Named Entity Disambiguation ~~
 - Add Text Similarity
 - Add Sentiment Analysis
 - Add a header image
